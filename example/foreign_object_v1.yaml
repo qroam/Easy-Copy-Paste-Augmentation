@@ -1,0 +1,49 @@
+# Define object classnames and corresponding PNG folder here:
+plastic_garbage_on_track:
+  - ../object_dataset/plastic_bags_sample
+stone_on_track:
+  - ../object_dataset/stones_sample
+negative_shape:
+  - ../object_dataset/negative_samples/shapes
+negative_text:
+  - ../object_dataset/negative_samples/text
+
+# Define the number of objects to paste on one background img for each class
+number:
+  plastic_garbage_on_track: [0, 5]
+  stone_on_track: [0, 5]
+  negative_shape: [0, 3]
+  negative_text: [0, 3]
+
+# Define the Copy-Paste Rules for each class objects, including size rule, position rule, angle rule 
+rules:
+  plastic_garbage_on_track: 
+    size: 
+      reference: _
+      rule: mean
+      scale: [0.06, 0.08]
+    position: 
+      reference: track
+      # value: [0.40, 0.05, 0.55, 0.95]
+      rule: random
+      anno_format: segmentation
+  stone_on_track: 
+    size: 
+      reference: _
+      rule: mean
+      scale: [0.06, 0.08]
+    position: 
+      reference: track
+      # value: [0.40, 0.05, 0.55, 0.95]
+      rule: random
+      anno_format: segmentation
+  negative_shape:
+    size:
+      reference: _
+      rule: mean
+      scale: [0.01, 0.12]
+  negative_text:
+    size:
+      reference: _
+      rule: mean
+      scale: [0.02, 0.10]

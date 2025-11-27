@@ -1,0 +1,32 @@
+.vscode
+0924异物贴图测试
+1028石头塑料袋
+人员上道视觉识别
+贴图
+贴图异物_全
+配置文件示例
+*/__pycache__
+*.pyc
+说明.txt
+src_1126backup
+src/conditional_copy_paste_backup0922.py
+src/aug.py
+src/create_data copy 2.py
+src/create_data copy.py
+src/create_data.py
+src/error.md
+src/conditional_rule_solver_backup1028.py
+src/experimental_codes
+src/object_with_contours.png
+src/object_with_contours_2.png
+src/try_create_data.ipynb
+src/try_rotate_offset_and_paste.ipynb
+src/try_rotate_offset.ipynb
+src/aug.py
+src/visualize_annotations.py
+object_dataset/plastic_bags
+object_dataset/stones
+README_old_zh.md
+docs/demo.pptx
+docs/~$demo.pptx
+docs/demo_old.jpg

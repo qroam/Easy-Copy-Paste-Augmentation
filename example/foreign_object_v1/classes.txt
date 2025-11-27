@@ -1,5 +1,0 @@
-0	plastic_garbage_on_track
-1	stone_on_track
-2	negative_shape
-3	negative_text
-4	track
